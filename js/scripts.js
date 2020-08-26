@@ -163,7 +163,6 @@ function searchBar() {
   //Search Event Lisener
   search.addEventListener("keyup", (e) => {
     const target = e.target.value.toUpperCase();
-    console.log(target);
     const names = document.querySelectorAll("#name");
     names.forEach((name) => {
       const person = name.innerHTML.toUpperCase();
